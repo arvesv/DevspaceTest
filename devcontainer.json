@@ -1,12 +1,5 @@
 {
     "name": "hledger-dev-container",
     "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
-    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y hledger",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": [
-        "ms-vscode.cpptools",
-        "ms-azuretools.vscode-docker"
-    ]
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y hledger"
 }
